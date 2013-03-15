@@ -1,0 +1,213 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E2AAAE516F2A4090029975F /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E2AAAE416F2A4090029975F /* main.c */; };
+		8E2AAAE716F2A4090029975F /* New_connect_five.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8E2AAAE616F2A4090029975F /* New_connect_five.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8E2AAADE16F2A4090029975F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8E2AAAE716F2A4090029975F /* New_connect_five.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8E2AAAE016F2A4090029975F /* New connect five */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "New connect five"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E2AAAE416F2A4090029975F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		8E2AAAE616F2A4090029975F /* New_connect_five.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = New_connect_five.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E2AAADD16F2A4090029975F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E2AAAD516F2A4090029975F = {
+			isa = PBXGroup;
+			children = (
+				8E2AAAE316F2A4090029975F /* New connect five */,
+				8E2AAAE116F2A4090029975F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E2AAAE116F2A4090029975F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E2AAAE016F2A4090029975F /* New connect five */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E2AAAE316F2A4090029975F /* New connect five */ = {
+			isa = PBXGroup;
+			children = (
+				8E2AAAE416F2A4090029975F /* main.c */,
+				8E2AAAE616F2A4090029975F /* New_connect_five.1 */,
+			);
+			path = "New connect five";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E2AAADF16F2A4090029975F /* New connect five */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E2AAAEA16F2A4090029975F /* Build configuration list for PBXNativeTarget "New connect five" */;
+			buildPhases = (
+				8E2AAADC16F2A4090029975F /* Sources */,
+				8E2AAADD16F2A4090029975F /* Frameworks */,
+				8E2AAADE16F2A4090029975F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "New connect five";
+			productName = "New connect five";
+			productReference = 8E2AAAE016F2A4090029975F /* New connect five */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E2AAAD716F2A4090029975F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Qiwei Wen";
+			};
+			buildConfigurationList = 8E2AAADA16F2A4090029975F /* Build configuration list for PBXProject "New connect five" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8E2AAAD516F2A4090029975F;
+			productRefGroup = 8E2AAAE116F2A4090029975F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E2AAADF16F2A4090029975F /* New connect five */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E2AAADC16F2A4090029975F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E2AAAE516F2A4090029975F /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8E2AAAE816F2A4090029975F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8E2AAAE916F2A4090029975F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8E2AAAEB16F2A4090029975F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8E2AAAEC16F2A4090029975F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E2AAADA16F2A4090029975F /* Build configuration list for PBXProject "New connect five" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E2AAAE816F2A4090029975F /* Debug */,
+				8E2AAAE916F2A4090029975F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E2AAAEA16F2A4090029975F /* Build configuration list for PBXNativeTarget "New connect five" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E2AAAEB16F2A4090029975F /* Debug */,
+				8E2AAAEC16F2A4090029975F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E2AAAD716F2A4090029975F /* Project object */;
+}
