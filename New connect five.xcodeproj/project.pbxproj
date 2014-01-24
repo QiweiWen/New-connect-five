@@ -8,7 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		8E2AAAE516F2A4090029975F /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E2AAAE416F2A4090029975F /* main.c */; };
-		8E2AAAE716F2A4090029975F /* New_connect_five.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8E2AAAE616F2A4090029975F /* New_connect_five.1 */; };
+		8E2AAAF616F2A4370029975F /* Game.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E2AAAEE16F2A4370029975F /* Game.c */; };
+		8E2AAAF716F2A4370029975F /* hashTable.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E2AAAF016F2A4370029975F /* hashTable.c */; };
+		8E2AAAF816F2A4370029975F /* List.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E2AAAF216F2A4370029975F /* List.c */; };
+		8E2AAAF916F2A4370029975F /* threadPool.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E2AAAF416F2A4370029975F /* threadPool.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,7 +21,6 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				8E2AAAE716F2A4090029975F /* New_connect_five.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
@@ -27,7 +29,15 @@
 /* Begin PBXFileReference section */
 		8E2AAAE016F2A4090029975F /* New connect five */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "New connect five"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E2AAAE416F2A4090029975F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		8E2AAAE616F2A4090029975F /* New_connect_five.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = New_connect_five.1; sourceTree = "<group>"; };
+		8E2AAAED16F2A4370029975F /* Connect_five.1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.man; path = Connect_five.1; sourceTree = "<group>"; };
+		8E2AAAEE16F2A4370029975F /* Game.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Game.c; sourceTree = "<group>"; };
+		8E2AAAEF16F2A4370029975F /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		8E2AAAF016F2A4370029975F /* hashTable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hashTable.c; sourceTree = "<group>"; };
+		8E2AAAF116F2A4370029975F /* hashTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hashTable.h; sourceTree = "<group>"; };
+		8E2AAAF216F2A4370029975F /* List.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = List.c; sourceTree = "<group>"; };
+		8E2AAAF316F2A4370029975F /* List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
+		8E2AAAF416F2A4370029975F /* threadPool.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = threadPool.c; sourceTree = "<group>"; };
+		8E2AAAF516F2A4370029975F /* threadPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = threadPool.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +70,16 @@
 		8E2AAAE316F2A4090029975F /* New connect five */ = {
 			isa = PBXGroup;
 			children = (
+				8E2AAAED16F2A4370029975F /* Connect_five.1 */,
 				8E2AAAE416F2A4090029975F /* main.c */,
-				8E2AAAE616F2A4090029975F /* New_connect_five.1 */,
+				8E2AAAEE16F2A4370029975F /* Game.c */,
+				8E2AAAEF16F2A4370029975F /* Game.h */,
+				8E2AAAF016F2A4370029975F /* hashTable.c */,
+				8E2AAAF116F2A4370029975F /* hashTable.h */,
+				8E2AAAF216F2A4370029975F /* List.c */,
+				8E2AAAF316F2A4370029975F /* List.h */,
+				8E2AAAF416F2A4370029975F /* threadPool.c */,
+				8E2AAAF516F2A4370029975F /* threadPool.h */,
 			);
 			path = "New connect five";
 			sourceTree = "<group>";
@@ -118,6 +136,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E2AAAE516F2A4090029975F /* main.c in Sources */,
+				8E2AAAF616F2A4370029975F /* Game.c in Sources */,
+				8E2AAAF716F2A4370029975F /* hashTable.c in Sources */,
+				8E2AAAF816F2A4370029975F /* List.c in Sources */,
+				8E2AAAF916F2A4370029975F /* threadPool.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
